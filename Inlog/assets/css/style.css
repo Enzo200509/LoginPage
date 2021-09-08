@@ -1,7 +1,57 @@
 *{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(../Voorbeelden/wallpapersden.com_sunrise-landscape_1920x1080.jpg);
+    transition: 250ms;
 }
 .container {
-    margin: auto;
+    margin: 10% auto ;
+    align-items: center;
     width: fit-content;
-};
+    height: fit-content;
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.form-container {
+    width: fit-content;
+    margin: auto;
+}
+input{
+    display: block;
+    margin: 5px ;
+    width: 100%;
+}
+input:focus{
+    border: #075eff solid 2px;
+    outline: none;
+}
+i{
+    display: block;
+    width: fit-content;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+#submit{
+    width: 50%;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 30px auto 0;
+}
+#submit:hover{
+    background-color: rgb(156, 150, 150);
+    transition: 250ms;
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+}
